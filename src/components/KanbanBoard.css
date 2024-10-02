@@ -13,7 +13,7 @@
      }
      
      .kanban-board.empty {
-       color: white;
+       color: grey;
        font-size: 18px;
        margin-top: 40px;
      }
