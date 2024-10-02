@@ -1,5 +1,5 @@
 
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 // axios is imported for fetching data 
 const API_URL = 'https://api.quicksell.co/v1/internal/frontend-assignment';
 

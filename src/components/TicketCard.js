@@ -1,14 +1,7 @@
 // src/components/TicketCard.js
 import React from 'react';
-import { FaUser } from 'react-icons/fa';
-import './TicketCard.css';
 
-const priorityColors = {
-  4: '#ff4d4f', // Urgent - Red
-  3: '#fa8c16', // High - Orange
-  2: '#52c41a', // Medium - Green
-  1: '#1890ff', // Low - Blue
-};
+import './TicketCard.css';
 
 const priorityLabels = {
   4: 'Urgent',
