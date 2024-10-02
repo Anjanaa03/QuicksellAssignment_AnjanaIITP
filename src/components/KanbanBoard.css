@@ -1,0 +1,21 @@
+/* src/components/KanbanBoard.css */
+
+
+.kanban-board {
+       display: flex;
+       flex-wrap: nowrap; /* Prevent columns from wrapping to the next line */
+       gap: 20px;
+       justify-content: flex-start; /* Align columns to the left */
+       overflow-x: auto; /* Enable horizontal scrolling if necessary */
+       padding-bottom: 10px; /* Space for scrollbar */
+       /* Optional: Hide vertical scrollbar if not needed */
+       overflow-y: hidden;
+     }
+     
+     .kanban-board.empty {
+       color: white;
+       font-size: 18px;
+       margin-top: 40px;
+     }
+     
+     

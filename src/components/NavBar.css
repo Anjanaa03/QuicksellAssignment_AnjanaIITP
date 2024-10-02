@@ -1,0 +1,45 @@
+/* Basic styles for the display dropdown */
+.dropdown {
+       position: relative;
+       display: inline-block;
+     }
+     
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+       padding: 10px;
+       z-index: 1;
+       border-radius: 4px;
+     }
+     
+     .dropdown-content select {
+       display: block;
+       margin-bottom: 10px;
+       padding: 5px;
+       width: 100%;
+     }
+     
+     .dropdown-button {
+       background-color: #fff;
+       border: 1px solid #ccc;
+       padding: 10px;
+       cursor: pointer;
+       font-size: 14px;
+       border-radius: 5px;
+       display: flex;
+       align-items: center;
+     }
+     
+     .dropdown-button::after {
+       content: '▼';
+       margin-left: 10px;
+       font-size: 12px;
+     }
+     
+     /* When the dropdown is open */
+     .dropdown-content {
+       display: block;
+     }
+     

@@ -1,0 +1,46 @@
+/* src/components/TicketCard.css */
+.ticket-card {
+       background-color: #ffffff;
+       padding: 10px 15px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       box-shadow:  0 4px 4px rgba(0, 0, 0, 0.1);
+       text-align: left;
+       cursor: pointer;
+     }
+     
+     .ticket-header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-bottom: 8px;
+     }
+     
+     .ticket-title {
+       font-size: 15px;
+       color: #555;
+     }
+     
+     .ticket-priority {
+       color: white;
+       padding: 4px 8px;
+       border-radius: 4px;
+       font-size: 12px;
+       text-transform: uppercase;
+     }
+     
+     .ticket-body p {
+       margin: 4px 0;
+       color: #100e0e;
+       font-size: 18px;
+       font-weight:600;
+     }
+     
+   
+     .ticket-tail p{
+       font-size: 12px;
+       border-radius: 8px;
+       
+             color : #555 ; 
+     }
+     
